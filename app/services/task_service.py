@@ -27,3 +27,30 @@ class TaskService:
                 content={"message": "Title is required"}
             )
         return self.repository.create(title.strip())
+
+    def update_task(self, task_id: int, title: str, done: bool):
+        if not title or not title.strip():
+            return JSONResponse(
+                status_code=400,
+                content={"message": "Title is required"}
+            )
+        task = self.repository.update(
+            task_id,
+            title.strip(),
+            done
+        )
+        if task is None:
+            return JSONResponse(
+                status_code=404,
+                content={"message": "Task not found"}
+            )
+        return task
+
+    def delete_task(self, task_id: int):
+        task = self.repository.delete(task_id)
+        if task is None:
+            return JSONResponse(
+                status_code=404,
+                content={"message": "Task not found"}
+            )
+        return task

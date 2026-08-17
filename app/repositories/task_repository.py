@@ -23,3 +23,22 @@ class TaskRepository:
         self.session.commit()
         self.session.refresh(task)
         return task
+    
+    def update(self, task_id: int, title: str, done: bool):
+        task = self.get_by_id(task_id)
+        if task is None:
+            return None
+        task.title = title
+        task.done = done
+        self.session.add(task)
+        self.session.commit()
+        self.session.refresh(task)
+        return task
+
+    def delete(self, task_id: int):
+        task = self.get_by_id(task_id)
+        if task is None:
+            return None
+        self.session.delete(task)
+        self.session.commit()
+        return task

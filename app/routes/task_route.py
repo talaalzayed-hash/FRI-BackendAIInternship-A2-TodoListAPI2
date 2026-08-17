@@ -17,7 +17,20 @@ def get_task(task_id: int, session: Session = Depends(get_session)):
     return service.get_task_by_id(task_id)
 
 @router.post("/", status_code=201)
-def create_task(
-    task: Task, session: Session = Depends(get_session)):
+def create_task(task: Task, session: Session = Depends(get_session)):
     service = TaskService(session)
     return service.create_task(task.title)
+
+@router.put("/{task_id}")
+def update_task(task_id: int, task: Task, session: Session = Depends(get_session)):
+    service = TaskService(session)
+    return service.update_task(
+        task_id,
+        task.title,
+        task.done
+    )
+
+@router.delete("/{task_id}")
+def delete_task(task_id: int, session: Session = Depends(get_session)):
+    service = TaskService(session)
+    return service.delete_task(task_id)
