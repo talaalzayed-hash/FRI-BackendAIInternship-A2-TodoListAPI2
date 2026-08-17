@@ -19,3 +19,11 @@ class TaskService:
                 content={"message": "Task not found"}
             )
         return task
+
+    def create_task(self, title: str):
+        if not title or not title.strip():
+            return JSONResponse(
+                status_code=400,
+                content={"message": "Title is required"}
+            )
+        return self.repository.create(title.strip())
