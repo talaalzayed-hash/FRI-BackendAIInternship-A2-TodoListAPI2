@@ -75,11 +75,17 @@ DATABASE_URL = "sqlite:///tasks.db"
 
 ## Screenshots
 
-##Get All Tasks 
-<img width="1437" height="840" alt="Screenshot 2026-08-20 100713" src="https://github.com/user-attachments/assets/e24a220c-5bd6-4d33-8308-639c29730104" />
-##Get Task by Id 
+## Get All Tasks 
 
-##Get Task - Not Found 
+<img width="1437" height="840" alt="Screenshot 2026-08-20 100713" src="https://github.com/user-attachments/assets/e24a220c-5bd6-4d33-8308-639c29730104" />
+
+## Get Task by Id 
+
+<img width="1432" height="768" alt="Screenshot 2026-08-20 101616" src="https://github.com/user-attachments/assets/078995a8-b96f-44a8-9521-5e6054550db9" />
+
+## Get Task - Not Found 
+
+<img width="1430" height="781" alt="Screenshot 2026-08-20 101712" src="https://github.com/user-attachments/assets/b5cb752e-fb88-4ba0-9a44-8785cebe00b4" />
 
 
 ## Project structure
