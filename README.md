@@ -75,6 +75,9 @@ DATABASE_URL = "sqlite:///tasks.db"
 
 ## Screenshots
 
+#Get All Tasks 
+<img width="1437" height="840" alt="Screenshot 2026-08-20 100713" src="https://github.com/user-attachments/assets/e24a220c-5bd6-4d33-8308-639c29730104" />
+
 ## Project structure
 
 The code is organised in layers, so each file has one job:
