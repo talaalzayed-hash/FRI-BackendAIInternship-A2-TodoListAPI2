@@ -87,6 +87,33 @@ DATABASE_URL = "sqlite:///tasks.db"
 
 <img width="1430" height="781" alt="Screenshot 2026-08-20 101712" src="https://github.com/user-attachments/assets/b5cb752e-fb88-4ba0-9a44-8785cebe00b4" />
 
+## Add New Task
+
+<img width="892" height="722" alt="Screenshot 2026-08-20 101928" src="https://github.com/user-attachments/assets/7a511f38-1010-4f9c-a644-b0c92b05b849" />
+
+## Add New Task - Title Required 
+
+<img width="900" height="722" alt="Screenshot 2026-08-20 102303" src="https://github.com/user-attachments/assets/716e85bf-f94c-48b6-955c-3528939c9527" />
+
+## Update Task
+
+<img width="902" height="791" alt="Screenshot 2026-08-20 102455" src="https://github.com/user-attachments/assets/eff24710-c30e-4c44-b323-dea52bd72bbc" />
+
+## Update Task - Task Not Found 
+
+<img width="895" height="800" alt="Screenshot 2026-08-20 102659" src="https://github.com/user-attachments/assets/1b45cb1d-67af-4b68-9f14-3782760ce6cb" />
+
+
+## Update Task - Title Required 
+
+<img width="896" height="798" alt="Screenshot 2026-08-20 102545" src="https://github.com/user-attachments/assets/98ed04dd-43ce-4289-a885-b645fe288361" />
+
+## Delete task 
+<img width="905" height="771" alt="Screenshot 2026-08-20 102911" src="https://github.com/user-attachments/assets/e3f05dfe-86d9-4abc-842d-83db921c2aa6" />
+
+## Delete task - Task Not Found
+
+<img width="1441" height="787" alt="Screenshot 2026-08-20 102817" src="https://github.com/user-attachments/assets/3993ed82-df19-4e6d-b570-bf1b049fff5d" />
 
 ## Project structure
 
